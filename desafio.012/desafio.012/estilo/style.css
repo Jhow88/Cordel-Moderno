@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face{font-family: Sriracha; src: url('/home/jhow/Documents/Estudos/Html-Css/desafios/desafio.012/fontes/Sriracha-Regular.ttf') format('truetype');}
+
+@font-face{font-family: Passion One; src: url('/home/jhow/Documents/Estudos/Html-Css/desafios/desafio.012/fontes/PassionOne-Regular.ttf') format('truetype');}
+
+ :root{
+    --fontebase: Verdana, Geneva, Tahoma, sans-serif;
+    --fontetexto: Sriracha, Cursive ;
+    --fontedestaque: Passion One, Cursive;
+}
+ body, html{
+    font-family: var(--fontebase);
+    min-height: 100vh;
+    background-color: white;
+}
+
+ header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    
+ }
+
+ header > h1{
+    font-weight: bold;
+    font-size: 10vw;
+    font-family: var(--fontedestaque);
+    font-variant: small-caps;
+}
+
+ a{
+    text-decoration:none;
+    font-weight: bolder;
+    color: white;
+}
+   header a:hover, footer a:hover{
+       text-decoration: underline;
+}
+
+ section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fontetexto);
+    font-size: 3.5vw;/*5 por cento do tamanho da largura da tela*/
+    line-height: 2em;/*distância vertical das letras*/
+    
+}
+ section > p{
+    font-size: 1em;
+    font-style: italic;
+     padding-bottom: 2em;
+}
+
+ section.imagem{
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    box-shadow:black;
+    padding: 5px;
+    width: 100%;
+    padding-left: 15px;/*distância lateral do texto*/
+}
+ section#imagem1{
+    background-image: url(/home/jhow/Documents/Estudos/Html-Css/desafios/desafio.012/imagens/background001.jpg);
+    color: white;
+    
+    
+    
+}
+ section#imagem1 > p{
+    background-color: rgba(0, 0, 0, 0.377);
+    text-shadow: 3px 3px black;
+    display: inline-block;
+    
+
+}
+ section#imagem2{
+    background-image: url(/home/jhow/Documents/Estudos/Html-Css/desafios/desafio.012/imagens/background002.jpg);
+    background-attachment:fixed;
+    
+}
+ section#imagem2> p{
+    background-color: rgba(0, 0, 0, 0.267);
+    display: inline-block;
+}
+ footer{
+     background-color: rgb(0, 0, 0);
+     color: white;
+     text-align: center;
+     padding: 2px;
+}
