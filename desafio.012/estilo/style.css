@@ -63,7 +63,7 @@
     padding-left: 15px;/*distância lateral do texto*/
 }
  section#imagem1{
-    background-image: url(/home/jhow/Documents/Estudos/Html-Css/desafios/desafio.012/imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     color: white;
     
     
@@ -77,7 +77,7 @@
 
 }
  section#imagem2{
-    background-image: url(/home/jhow/Documents/Estudos/Html-Css/desafios/desafio.012/imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-attachment:fixed;
     
 }
